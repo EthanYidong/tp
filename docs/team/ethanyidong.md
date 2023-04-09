@@ -12,13 +12,19 @@ by the ingredients you already have so that you can easily find recipes you can 
 [Contributed Code](https://nus-cs2113-ay2223s2.github.io/tp-dashboard/?search=ethanyidong&breakdown=true)
 
 #### Enhancements
-- Overall command parsing structure
+- Task: Overall command parsing structure
+  - What it does: allows developers to easily add new commands in a nested routing structure, i.e. ("recipe possible" and "recipe almost" can be nested under a "recipe" routing node).
 - Overall application architecture
-- Ingredient and recipe database setup
-  - Recipe cooking and preparation time
-- Ingredients list command
+  - What it does: provide a framework for developers to write new commands (executable, factory to create executable, and router to decide which factory to call).
+- Ingredient and recipe database setup plus recipe cooking and preparation time.
+  - What it does: allow developers to easily add new recipes via editing JSON rather than Java code.
+  - What it does: allow users to see the cooking and preparation times for a given recipe.
+- Ingredients list command.
+  - What it does: allow users to see a list of valid ingredients.
 - Ingredients search command
+  - What it does: allow users to see a list of ingredients matching some keywords.
 - Allergens command
+  - What it does: allow users to filter out recipes which contain a list of allergens.
 
 #### UG
 - Front Matter: extended value proposition
